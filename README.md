@@ -33,13 +33,13 @@ El primer intento fue una CNN secuencial estándar. Aunque aprendió patrones b�
 Armado con el diagnóstico anterior, este modelo fue diseñado para ser más robusto y generalizar mejor.
 
 **Mejoras Estratégicas:** 
-    - GlobalAveragePooling2D para reemplazar la capa Flatten, reduciendo drásticamente los parámetros.
+- GlobalAveragePooling2D para reemplazar la capa Flatten, reduciendo drásticamente los parámetros.
 
-    - Regularización L2 en las capas convolucionales para penalizar la complejidad del modelo.
+- Regularización L2 en las capas convolucionales para penalizar la complejidad del modelo.
 
-    - BatchNormalization para estabilizar y acelerar el entrenamiento.
+- BatchNormalization para estabilizar y acelerar el entrenamiento.
 
-    - Arquitectura de la red más profunda para que pueda aprender mayores caracteristicas.
+- Arquitectura de la red más profunda para que pueda aprender mayores caracteristicas.
 
 **Resultado**: Un salto masivo en rendimiento y estabilidad. El sobreajuste se controló significativamente.
 

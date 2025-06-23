@@ -17,3 +17,14 @@ Este proyecto demuestra:
 - La implementación experta de **Transfer Learning** con **MobileNetV2**.
 
 - La optimización final usando **Fine-Tuning** para exprimir el máximo rendimiento.
+
+
+## 1️⃣ **Modelo 1: Un Comienzo Humilde (Precisión ~54%)**
+
+El primer intento fue una CNN secuencial estándar. Aunque aprendió patrones básicos, los resultados revelaron problemas críticos.
+
+- **Diagnóstico**: Un severo sobreajuste (gran brecha entre la precisión de entrenamiento y la de validación) y una alta inestabilidad (curvas de validación ruidosas y con picos).
+
+- **Aprendizaje Clave**: Un modelo sin una fuerte regularización tiende a memorizar los datos de entrenamiento en lugar de generalizar.
+
+![grafica modelo 1](image.png)

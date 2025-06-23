@@ -34,7 +34,9 @@ Armado con el diagnóstico anterior, este modelo fue diseñado para ser más rob
 
 **Mejoras Estratégicas:** 
     - GlobalAveragePooling2D para reemplazar la capa Flatten, reduciendo drásticamente los parámetros.
+
     - Regularización L2 en las capas convolucionales para penalizar la complejidad del modelo.
+
     - BatchNormalization para estabilizar y acelerar el entrenamiento.
 
     - Arquitectura de la red más profunda para que pueda aprender mayores caracteristicas.
@@ -42,3 +44,21 @@ Armado con el diagnóstico anterior, este modelo fue diseñado para ser más rob
 **Resultado**: Un salto masivo en rendimiento y estabilidad. El sobreajuste se controló significativamente.
 
 ![grafica modelo 2](image-1.png)
+
+
+## 3️⃣ **Modelo 3: Alcanzando la Excelencia con Transfer Learning (Precisión Final 96.29%)**
+Para superar el techo del 86%, introduje la idea de utilizar: Transfer Learning.
+
+- **Fase 1:** Extractor de Características (Precisión ~94%)
+Se utilizó MobileNetV2 pre-entrenado en ImageNet con sus capas congeladas.
+Solo se entrenó una nueva "cabeza" clasificadora. El resultado fue una convergencia explosiva y un rendimiento excelente.
+
+- **Fase 2:** Fine-Tuning (Precisión Final 96.29%)
+
+Se "descongelaron" las capas superiores de MobileNetV2.
+Se continuó el entrenamiento con una tasa de aprendizaje de (1e-5) para ajustar sutilmente el modelo a nuestro dataset específico.
+Esta fase final pulió el modelo, mejorando el rendimiento en todas las clases y alcanzando un estado de vanguardia.
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)

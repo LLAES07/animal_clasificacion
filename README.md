@@ -8,12 +8,12 @@ Este repositorio documenta el viaje completo y metodológico para construir un c
 El objetivo es simple: clasificar imágenes de animales. Sin embargo, el camino para lograrlo implicó un proceso iterativo de diagnóstico, hipótesis y experimentación.
 
 Este proyecto demuestra:
-- La construcción de Redes Neuronales Convolucionales (CNNs) desde cero.
+- La construcción de **Redes Neuronales Convolucionales (CNNs)** desde cero.
 
-- El diagnóstico y la solución de problemas comunes como el sobreajuste (overfitting) y la inestabilidad del entrenamiento.
+- El diagnóstico y la solución de problemas comunes como el **sobreajuste (overfitting)** y la inestabilidad del entrenamiento.
 
-- La aplicación de un arsenal de técnicas de regularización (Dropout, BatchNormalization, L2, GlobalAveragePooling2D).
+- La aplicación de un arsenal de **técnicas de regularización** (Dropout, BatchNormalization, L2, GlobalAveragePooling2D).
 
-- La implementación experta de Transfer Learning con MobileNetV2.
+- La implementación experta de **Transfer Learning** con **MobileNetV2**.
 
-- La optimización final mediante Fine-Tuning para exprimir el máximo rendimiento.
+- La optimización final usando **Fine-Tuning** para exprimir el máximo rendimiento.

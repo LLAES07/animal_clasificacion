@@ -62,3 +62,17 @@ Esta fase final pulió el modelo, mejorando el rendimiento en todas las clases y
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
+
+
+# 📊 **Resultados Finales**
+El modelo final, después del fine-tuning, fue evaluado en un conjunto de prueba independiente, con los siguientes resultados:
+
+**Precisión Global: 96.29%**
+
+![alt text](image-4.png)
+
+
+# **🛠️ Stack Tecnológico**
+
+**Lenguaje:** Python 3
+**Librerías Principales:** TensorFlow, Keras, Scikit-learn, NumPy, Pandas, Matplotlib

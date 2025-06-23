@@ -1,1 +1,3 @@
-# animal_clasificacion
+# 🤖 **Clasificador de Animales con Deep Learning: De 61% a 97% de Precisión**
+
+Este repositorio documenta el viaje completo y metodológico para construir un clasificador de imágenes de alto rendimiento. Partiendo de un modelo básico con problemas de sobreajuste, el proyecto avanza a través de iteraciones de mejora, culminando en un modelo de vanguardia que utiliza Transfer Learning y Fine-Tuning para alcanzar una precisión del 97.39% en la clasificación de 10 tipos de animales.
